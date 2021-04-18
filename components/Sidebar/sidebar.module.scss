@@ -7,7 +7,7 @@
   border-radius: 10px;
   box-shadow: 2px 4px 20px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
-  top: 0px;
+  top: 0;
 
   ul {
     margin: 0;
@@ -101,5 +101,15 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .sidebar {
+    position: absolute;
+    top: 15px;
+    left: -400px;
+    width: 270px;
+    transition: all 0.3s linear;
   }
 }

@@ -85,6 +85,12 @@ export default function Home() {
                 }
               },
               "curve": "curveNatural",
+              "experimental": true,
+              "zoomBar": {
+                "top": {
+                  "enabled": true
+                }
+              },
               "height": "400px"
             }}>
           </AreaChart>
