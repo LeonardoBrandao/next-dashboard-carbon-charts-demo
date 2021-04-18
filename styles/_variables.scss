@@ -1,0 +1,51 @@
+// Sora font
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600;700;800&display=swap');
+
+$text-primary: #383838;
+$text-secondary: #565656;
+$bg-primary: #fff;
+$bg-secondary: #f8f9fa;
+$bg-tertiary: rgb(235, 235, 235);
+$default-grey: #f7f7f7;
+$default-blue: #00b8ff;
+$default-red: #ff6767;
+$default-yellow: #ffae00;
+$default-green: #9dff00;
+$default-dark: #1d1e22;
+$font-family: 'Sora', sans-serif;
+$transition-speed: 200ms;
+$transition-default: all 200ms ease-in-out;
+$table-border-radius: 15px;
+
+$scrollbar-bg: #ffffff;
+$thumb-bg: #777777;
+
+// dark theme vars
+$dark-bg-primary: #141418;
+$dark-bg-secondary: #191921;
+$dark-bg-tertiary: #181925;
+$dark-text-primary: #fff;
+$dark-text-secondary: #ccc;
+$dark-scrollbar-bg: transparent;
+$dark-thumb-bg: #8f8f8f;
+
+// sidenav vars
+$sidenav-text-primary: #b6b6b6;
+$sidenav-text-secondary: #ececec;
+$sidenav-bg-primary: rgb(219, 219, 219);
+$sidenav-bg-secondary: rgb(235, 235, 235);
+$sidenav-icon-primary: #ff7eee;
+$sidenav-icon-secondary: #df49a6;
+$sidenav-transition-speed: 400ms;
+
+// sidenav vars
+$dark-sidenav-text-primary: #b6b6b6;
+$dark-sidenav-text-secondary: #ececec;
+$dark-sidenav-bg-primary: #23232e;
+$dark-sidenav-bg-secondary: #141418;
+$dark-sidenav-icon-primary: #ff7eee;
+$dark-sidenav-icon-secondary: #df49a6;
+$dark-sidenav-transition-speed: 400ms;
+
+
+

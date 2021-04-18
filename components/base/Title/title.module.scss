@@ -1,0 +1,15 @@
+@import "../../../styles/_variables.scss";
+
+.title {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  margin-top: 0px;
+  text-align: center;
+}
+
+// colors
+.title {
+  color: $text-primary;
+}
