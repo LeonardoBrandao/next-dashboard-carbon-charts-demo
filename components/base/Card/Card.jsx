@@ -4,8 +4,8 @@ import s from './card.module.scss'
 
 function Card({ style, children }) {
   return (
-    <div class={s.spacing} style={style}>
-      <div class={s.card}>
+    <div className={s.spacing} style={style}>
+      <div className={s.card}>
         {children}
       </div>
     </div>

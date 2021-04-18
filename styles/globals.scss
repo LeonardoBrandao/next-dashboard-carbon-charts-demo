@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Sora,Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Sora, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f8f9fa;
 }
 
 a {
@@ -24,5 +25,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.nav-active {
+  &::before {
+    opacity: 1 !important;
+  }
+  > div {
+    &::before {
+      opacity: 1 !important;
+    }
+    svg {
+      fill: #fff !important;
+    }
   }
 }

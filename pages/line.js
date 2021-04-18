@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Button from '../components/base/Button/Button'
 import Card from '../components/base/Card/Card'
 import Title from '../components/base/Title/Title'
-import { AreaChart } from "@carbon/charts-react";
+import { LineChart } from "@carbon/charts-react";
 
 import s from '../styles/Home.module.scss'
 import "@carbon/charts/styles.css";
@@ -16,9 +16,10 @@ export default function Home() {
       </Head>
 
       <main className={s.main}>
-        <Title>Area charts</Title>
+        <Title>Line charts</Title>
         <Card>
-          <AreaChart
+
+          <LineChart
             data={[
               {
                 "group": "Dataset 1",
@@ -87,7 +88,7 @@ export default function Home() {
               "curve": "curveNatural",
               "height": "400px"
             }}>
-          </AreaChart>
+          </LineChart>
         </Card>
       </main>
     </div>

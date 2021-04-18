@@ -4,11 +4,11 @@ import Sidebar from '../components/Sidebar/Sidebar'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div class="grid-container">
-      <div class="sidebar">
+    <div className="grid-container">
+      <div className="sidebar">
         <Sidebar />
       </div>
-      <div class="content">
+      <div className="content">
         <Component {...pageProps} />
       </div>
     </div>
