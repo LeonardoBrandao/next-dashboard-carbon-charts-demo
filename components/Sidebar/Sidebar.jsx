@@ -14,6 +14,7 @@ function Sidebar() {
 
   const closeMenu = () => {
     document.getElementById("sidebar").classList.remove("open");
+    document.getElementById("sidebar-wrapper").classList.remove("open");
     document.getElementById("menu-open").classList.remove("open");
   }
 

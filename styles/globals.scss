@@ -16,7 +16,7 @@ a {
   box-sizing: border-box;
 }
 
-.sidebar {
+#sidebar-wrapper {
   position: fixed;
   width: 290px;
   height: 100vh;
@@ -54,8 +54,13 @@ a {
     grid-template-columns: 0fr 1fr;
     
   }
-  .sidebar {
+  #sidebar-wrapper {
     z-index: 2;
+    left: -400px;
+    transition: all 0.3s linear;
+    &.open {
+      left: 0;
+    }
     #sidebar.open {
       left: 10px;
     }
